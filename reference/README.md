@@ -12,6 +12,7 @@
 - [強化学習でボールを自由に動かす　～ネズミを追いかけるボール～　Part 1](http://www.fward.net/archives/2643)
 - [【強化学習】実装しながら学ぶA3C【CartPoleで棒立て：1ファイルで完結】](https://qiita.com/sugulu/items/acbc909dd9b74b043e45)
 - [深層強化学習アルゴリズムDDPGをしっかり理解する(1)](https://sykwer.hatenablog.jp/entry/2018/03/08/105711)
+- [Deep Deterministic Policy Gradient / DDPG](https://takashi-matsushita.github.io/jekyll/ai/2019/03/06/RL-DDPG.html)
 ### サンプル
 - [GitHubじゃ！Pythonじゃ！](https://githubja.com/keras-rl/keras-rl)
 - https://github.com/keras-rl/keras-rl
