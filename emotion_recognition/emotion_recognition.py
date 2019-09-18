@@ -26,7 +26,7 @@ params = {
     'returnFaceAttributes': 'emotion',
 }
 
-count = 1
+output_count = 1
 try:
     while True:
         ret, frame = cap.read()
@@ -62,9 +62,9 @@ try:
             cv2.putText(frame,'Valence:'+ str(valence),(right + 10,dy+15), 0, 0.5,(255,255,255),1,cv2.LINE_AA)
 
         writer.write(frame)
-        filepath = os.path.join('output', 'frame_{:04d}.jpg'.format(count))
+        filepath = os.path.join('output', 'frame_{:04d}.jpg'.format(output_count))
         cv2.imwrite(filepath, frame)
-        count += 1
+        output_count += 1
         cv2.imshow('Raw Frame', frame)
         
         print("")
